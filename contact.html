@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      ul {
+        overflow: hidden;
+        height: 80px;
+      }
+      ul li {
+        list-style: none;
+        float: left;
+        padding: 2% 4%;
+      }
+      ul li a {
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+
+      ul li a:hover {
+        color: red;
+      }
+      h1 {
+        font-size: 3rem;
+        text-align: center;
+      }
+      form {
+        margin: 2% 43%;
+        width: 11%;
+        padding: 2% 3%;
+        border: 7px solid;
+      }
+      #btn {
+        width: 163px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li>
+          <a href="https://web.whatsapp.com/"
+            ><img src="whatapp.png" />9080143969</a
+          >
+          <a href="https://mail.google.com/mail/u/0/">
+            <img src="gmail.png" />Hotel12345@gmail.com</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <h1>Login Form</h1>
+    <form action="login.py">
+      Name:<br />
+      <input type="text" name="name" placeholder="Enter your name" />
+      <br /><br />
+      mobile Number:<br />
+      <input type="number" name="mobile" placeholder="Enter your number" />
+      <br /><br />
+      Password:<br />
+      <input type="password" name="pass" placeholder="Enter your Password" />
+      <br /><br />
+
+      <input type="submit" value="Login" id="btn" />
+    </form>
+  </body>
+</html>
